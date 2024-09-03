@@ -1,3 +1,116 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+}
+nav{
+  padding: 20px 5%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 600px;
+}
+.navbar h1{
+  color: blueviolet;
+ 
+}
+.navbar .links a{
+  text-decoration: none;
+  margin-left: 20px;
+  color: blue;
+  font-weight: 600px;
+}
+.navbar .links a:hover{
+  color: blueviolet;
+}
+nav hr{
+  margin-top: 20px;
+  color: #333;
+}
+.form label{
+  width: 100%;
+  text-align: start;
+}
+.form{
+  padding: 0 5%;
+}
+.form form input{
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  width: 100%;
+}
+.form form .bigger{
+  height: 200px;
+}
+.form form button{
+  border: 0;
+  outline: 0;
+  background: #1306c5;
+  text-align: start;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.content{
+  max-width: 600px;
+   margin: 90px auto;
+  padding: 20px;
+  text-align: left; 
+}   */
+
+
+
+            
+             @import url('https://fonts.goggleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+            *{
+              margin:0px;
+              font-family: "Quicksand";
+              color: #333;
+            }
+            .navbar{
+              padding: 20px;
+              display:flex;
+              max-width: 600px;
+              align-items: center;
+              margin: 0 auto;
+              border-bottom: 1px solid #f2f2f3;
+            
+            }
+
+            .navbar h1{
+              color: blueviolet;
+              
+              
+            }
+            .navbar .links{
+              margin-left: auto;
+            }
+            .navbar a{
+              margin-left: 16px;
+              text-decoration: none;
+              padding: 6px;
+            }
+            .navbar a:hover{
+              color: blueviolet;
+            }
+            .content{
+              max-width:600px;
+              margin: 90px auto;
+              padding:20px;
+  text-align: left;
+}
+
+
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,5 +122,5 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    monospace;
+}        
